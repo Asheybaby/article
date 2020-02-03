@@ -1,0 +1,85 @@
+/* Embedded Fonts */
+
+@font-face {
+    font-family: 'Quicksand', sans-serif;
+    font-family: 'Vollkorn SC', serif;
+    src:url('https://fonts.googleapis.com/css?family=Quicksand|Vollkorn+SC&display=swap'); format('truetype');
+}
+
+
+
+
+
+
+/* Container Items */
+
+.cover {
+    margin-left: 200px;
+    width: 50vw;
+    height: 111vh;
+    background: url("../images/catscan.jpg") no-repeat center fixed;
+    background-size: cover;
+
+}
+
+.container {
+
+    width: 100vw;
+    height: 270vh;
+    background-color: #cccccc;
+
+}
+
+
+
+
+
+
+
+
+/* Paragraph Styles */
+
+.title {
+    font-family: 'Quicksand';
+    font-size: 50px;
+    color: #6b6b6b;
+    position: absolute;
+    letter-spacing: 0.3px;
+    left: 50px;
+    top: 500px;
+    background-color: white;
+
+    border: 30px solid white;
+
+}
+
+.text {
+    position: center;
+    font-family: 'Vollkorn SC';
+    font-size: 20px;
+    color: #5e5e5e;
+    width: 800px;
+    letter-spacing: 0.1px;
+    line-height:  50px;
+    text-indent: 5em;
+    margin: auto;
+
+
+
+
+}
+
+
+
+
+
+.mark {
+    position: absolute;
+    margin-left: 115px;
+    font-size: 30px;
+    color: black;
+
+
+
+
+}
